@@ -6,7 +6,7 @@ S = S'.
 notice that after every iteration, the number of elements in S reduce by 1.
 let the single integer value that you obtain after (N - 1) iterations be X.
 
-Since Okabe is busy at the moment, your task is to write a program to calculate the value of X, given S and N.
+Since Okabe is busy at the moment, your task is to write a program to calculate the value of X, given S and N. Print your answer mod 10^9 + 7.
 
 for example, if N = 3 and S = {5, 7, 2}
 first iteration: 
@@ -18,6 +18,8 @@ S' = {-2 - 5} = {-7}
 S = S'
 
 therefore, X = -7.
+-7 mod 10^9 + 7 = 1000000000.
+
 
 INPUT FORMAT:
 -> The first line of input contains a single integer T, the number of test cases. Then, T test cases follow.
@@ -40,6 +42,6 @@ SAMPLE INPUT:
 50
 
 SAMPLE OUTPUT:
--7
+1000000000
 4
 50
