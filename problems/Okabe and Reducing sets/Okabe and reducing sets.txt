@@ -30,7 +30,10 @@ OUTPUT FORMAT:
 -> For each test case, print a single line containing the integer X. Since the output can be very large, print X mod 10^9 + 7
 
 CONSTRAINTS:
-* will edit later
+T = 100
+1 <= N <= 300
+-10^6 <= Si <= 10^6
+Time limit: 1 sec
 
 SAMPLE INPUT:
 3
