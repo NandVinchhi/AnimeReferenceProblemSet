@@ -4,6 +4,6 @@ A set of original competitive coding problems from various topics with one thing
 RULES:
 1. Every problem must have an anime storyline
 2. The storyline must be prominent and contain references from the plot of the anime
-3. No spoilers allowed
+3. No spoilers allowed for any anime
 4. Problems should be of competetive programming type and difficulty should be at most INOI level
 5. The general competetive coding format should be followed in the problems
