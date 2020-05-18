@@ -6,7 +6,8 @@ S = S'.
 notice that after every iteration, the number of elements in S reduce by 1.
 let the single integer value that you obtain after (N - 1) iterations be X.
 
-Since Okabe is busy at the moment, your task is to write a program to calculate the value of X, given S and N. Print your answer mod 10^9 + 7.
+Since Okabe is busy at the moment, your task is to write a program to calculate the value of X, given S and N. Print your
+answer mod 10^9 + 7.
 
 for example, if N = 3 and S = {5, 7, 2}
 first iteration: 
@@ -27,7 +28,8 @@ INPUT FORMAT:
 -> The second line of each test case contains N spaced integers, which represent the set S.
 
 OUTPUT FORMAT:
--> For each test case, print a single line containing the integer X. Since the output can be very large, print X mod 10^9 + 7
+-> For each test case, print a single line containing the integer X. Since the output can be very large, 
+print X mod 10^9 + 7
 
 CONSTRAINTS:
 T = 100
