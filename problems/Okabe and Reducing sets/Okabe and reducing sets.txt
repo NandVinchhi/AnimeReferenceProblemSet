@@ -25,7 +25,7 @@ INPUT FORMAT:
 -> The second line of each test case contains N spaced integers, which represent the set S.
 
 OUTPUT FORMAT:
--> For each test case, print a single line containing the integer X.
+-> For each test case, print a single line containing the integer X. Since the output can be very large, print X mod 10^9 + 7
 
 CONSTRAINTS:
 * will edit later
