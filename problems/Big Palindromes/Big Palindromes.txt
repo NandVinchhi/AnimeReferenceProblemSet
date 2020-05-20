@@ -1,0 +1,33 @@
+Captain Levi and the Scout Regiment have come upon a secret vault of ancient knowledge. Access to the manuscripts within would give 
+them vital information about the titans. You and you team have been put to the task of cracking this vault. You are given a positive
+integer N. After examining the mechanism of the vault, you have found that the password to crack it is the number of palindromes <= N. 
+A palindrome is defined as a positive integer that reads the same way forwards and backwards. For example: 101, 5, 1221, 585 etc.
+
+You task is to find the number of palindromes <= N. Note that all single digit positive integers are also considered palindromes.
+For example, if N = 101, the palindromes <= N are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101.
+therefore, your answer is 19. 
+
+Time is running out and the lives of many depend on you and your team! Wil the scout regiment succeed or will the titans prevail....
+
+INPUT FORMAT:
+> The first line of the input contains a single integer T, the number of test cases.
+> Each test case consists of a single line, containing a single integer N.
+
+OUTPUT FORMAT:
+> For each test case, output a single integer X, which is the number of palindromes <= N.
+
+CONSTRAINTS:
+T = 100
+1 <= N <= 10^18
+Time limit: 1 sec
+
+SAMPLE INPUT:
+3
+101
+8
+6573
+
+SAMPLE OUTPUT:
+19
+8
+164
