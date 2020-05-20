@@ -1,0 +1,31 @@
+Genos is undergoing intense training from his master Saitama. The final, and most important lesson that Saitama wants to teach Genos is 
+how to live in this harsh society. His task is to be as greedy as possible, so that he will learn how to cope with the most deadly monsters
+which are the shopkeepers. Minimizing costs and bargaining are the two most important skills a man can have, however, Genos lacks these 
+crucial skills. To teach him the proper way to reduce costs at the supermarket, Saitama has designed a test for him.
+
+He has given Genos a (shopping) list containing some prices a_1, a_2, a_3, ... , a_n which happen to be the prices of the items on sale 
+at the supermarket today. Genos may use the following bargain tactic: He may choose any two prices in the list a_i, a_j and replace the 
+larger of the two with |a_i - a_j| and must also delete the smaller of the two.
+
+Observe that after each bargain, the number of prices reduces by 1. So, after n-1 bargains, there will be only one price left. This is the 
+final cost of all the items. Help Genos to find the minimum possible value of the final price so that Saitama's salary is safe.
+
+INPUT
+The input contains two lines; the first line is n, the number of prices in the shopping list and the second line will be numbers seperated
+by an apostrophe followed by a blank space.
+
+OUTPUT
+Your output should only contain one number, which is the minimum possible value of the final price
+
+SAMPLE INPUT
+4
+1, 3, 7, 9
+
+SAMPLE OUTPUT
+0
+
+EXPLANATION
+Clearly the final cost can never be negative. 0 is acheivable in the following way:
+-> choose 9 and 7. Replace 9 with |7 - 9| = 2. 7 must be removed. Now the list is 1, 3, 2.
+-> choose 3 and 2. Replace 3 with |3 - 2| = 1. 2 must be removed. Now the list is 1, 1.
+-> choose 1 and 1. Replace 1 with |1 - 1| = 0. 1 must be removed. Now the list is 0.
