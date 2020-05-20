@@ -1,0 +1,26 @@
+After detective L's humiliating defeat against his rival detective Light in the tennis match, he must redeem himself by winning round 2. 
+Watari, his assistant has designed a fair test to decide the winner of the second round. Since the first round tested the physical ability 
+of the contestants, Watari believes it only fair to test the mental abilities in the second round. Besides, exercising their brains will 
+likely help them to catch the criminal faster. 
+
+The test is as follows. Both contestants are given an integer n. Now n can be written as the product of some, not necessarly distinct 
+primes. Say n = p_1*p_2*...*p_(r-1)*p_r. Now, let q_i be the i'th prime. For example q_1 = 2, q_2 = 3, q_3 = 5, etc. Their task is to find
+the number of digits in the product q_(r-1) * q_r.
+Whoever gets the answer first wins. Help L prove that he is clearly superior to Light when it comes to thinking.
+
+INPUT
+The first line of the input contains T, the number of test cases. T lines follow. On each line is a number n.
+
+OUTPUT
+Output the number of digits of q_(r-1)*q_r
+If r = 1, then just output 0
+
+SAMPLE INPUT
+2
+10
+50
+
+SAMPLE OUTPUT
+1
+2
+
