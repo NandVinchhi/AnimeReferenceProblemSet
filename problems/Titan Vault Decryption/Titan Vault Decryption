@@ -7,7 +7,7 @@ You task is to find the number of palindromes <= N. Note that all single digit p
 For example, if N = 101, the palindromes <= N are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101.
 therefore, your answer is 19. 
 
-Time is running out and the lives of many depend on you and your team! Wil the scout regiment succeed or will the titans prevail....
+Time is running out and the lives of many depend on you and your team! Will the scout regiment succeed, or will the titans prevail....
 
 INPUT FORMAT:
 > The first line of the input contains a single integer T, the number of test cases.
