@@ -1,0 +1,31 @@
+You are given an N-lattice on the cartesian plane, which is a uniform square of n^2 dots. 
+For example, a 3-lattice would look like this:
+
+. . .
+. . .
+. . .
+
+labelled version:
+1. 2. 3. 
+4. 5. 6.
+7. 8. 9.
+
+let us define a Senpai triangle as a triangle formed by any 3 points in this lattice, such that:
+a) it is right angled.
+b) the base is parellel to the x-axis.
+c) the altitude is parallel to the y-axis.
+
+For example (in the above labelled 3-lattice), triangles (1, 7, 8) and (3, 6, 5), right angled at 7 and 6 respectively,
+are considered as Senpai.
+Whereas, triangles (2, 6, 8) and (2, 7, 6) are not..... and will live in shame.
+
+let us define the Senpai-ness of a N-lattice as the sum of areas of all its Senpai triangles (where 1 unit is taken as the distance
+between any 2 horizontally or vertically adjacent dots). Given an integer N, your task is to find the Senpai-ness of the N-lattice.
+
+For example, in the below 2-lattice, the possible senpai triangles are: (1, 3, 4), (2, 4, 3), (3, 1, 2) and (4, 2, 1). 
+1. 2.
+3. 4.
+The sum of their areas (Senpai-ness) = 1/2 + 1/2 + 1/2 + 1/2 = 2.
+
+
+
