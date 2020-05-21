@@ -45,7 +45,7 @@ OUTPUT:
 answer can be quite large, print it mod 10^9 + 7.
 
 CONSTRAINTS:
-T = 300
+T = 100
 2 <= N <= 10^30 (c, c++ and java users can use 128 bit ints, although it is not required)
 Time Limit: 1 sec
 
