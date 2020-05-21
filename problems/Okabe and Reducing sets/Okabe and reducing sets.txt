@@ -1,4 +1,7 @@
-Okabe is given a set S of N integers. let the (i + 1)th element in S be denoted by Si, starting from S0. 
+One of Okabe's precarious experiments with his time machine has gone horrible wrong. In the current world line, he does not exist.
+Each world line is defined by a finite set of integers.
+
+You are given this set S of N integers. let the (i + 1)th element in S be denoted by Si, starting from S0. 
 Okabe needs to perform the following operation on S until it is reduced to a single integer:
 let S' = {(S0 - S1), (S1 - S2), (S2 - S3) ..... (S(N-2) - S(N - 1))}
 S = S'.
@@ -6,7 +9,7 @@ S = S'.
 notice that after every iteration, the number of elements in S reduce by 1.
 let the single integer value that you obtain after (N - 1) iterations be X.
 
-Since Okabe is busy at the moment, your task is to write a program to calculate the value of X, given S and N. Print your
+To revert back to the original world line, your task is to write a program to calculate the value of X, given S and N. Print your
 answer mod 10^9 + 7.
 
 for example, if N = 3 and S = {5, 7, 2}
